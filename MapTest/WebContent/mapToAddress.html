@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta name="viewport" content="initial-scale=1.0, user-scalable=no">
+    <meta charset="utf-8">
+    <title>Reverse Geocoding</title>
+    
+    <link rel="stylesheet" href="styles/reverseGeolocation1.css" >
+    
+    <script src="https://maps.googleapis.com/maps/api/js?v=3.exp&signed_in=true"></script>
+    <script type="text/javascript" src="scripts/reverseGeolocation.js"></script>
+
+     <link rel="stylesheet" href="styles/reverseGeolocation2.css" >
+    
+  </head>
+  <body>
+    <div id="panel">
+      <input id="latlng" type="text" value="">
+      <input type="button" value="Pin My Location" onclick="codeLatLng()">
+    </div>
+    <div id="map-canvas"></div>
+  </body>
+</html>
